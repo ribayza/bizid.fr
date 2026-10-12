@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Riadh BiziD®</title>
+  <meta name="description" content="Professeur d'éducation physique et sportive Tunisie. Journal sportif des journées excitantes et amusantes avec mes merveilleux élèves.">
+  <link rel="icon" type="image/png" href="avatar.png">
+  
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background-color: #f4f6f9;
+      color: #334155;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      line-height: 1.6;
+    }
+
+    .card-container {
+      width: 100%;
+      max-width: 680px;
+      margin: 40px 16px;
+      background: #ffffff;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06), 0 1px 3px rgba(0, 0, 0, 0.04);
+      border: 1px solid #e2e8f0;
+    }
+
+    .header-banner {
+      width: 100%;
+      height: 220px;
+      background-image: url('header.jpg');
+      background-size: cover;
+      background-position: center;
+      position: relative;
+    }
+
+    .header-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%);
+    }
+
+    .profile-body {
+      padding: 0 32px 36px 32px;
+      position: relative;
+      text-align: center;
+    }
+
+    .avatar-container {
+      margin-top: -60px;
+      margin-bottom: 18px;
+      position: relative;
+      display: inline-block;
+    }
+
+    .avatar-img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 4px solid #ffffff;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+      object-fit: cover;
+      background-color: #ffffff;
+    }
+
+    .title {
+      font-size: 1.85rem;
+      font-weight: 700;
+      color: #0f172a;
+      letter-spacing: -0.02em;
+      margin-bottom: 8px;
+    }
+
+    .subtitle {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #213f52;
+      margin-bottom: 16px;
+    }
+
+    .divider {
+      width: 48px;
+      height: 3px;
+      background-color: #213f52;
+      border-radius: 2px;
+      margin: 16px auto;
+      opacity: 0.8;
+    }
+
+    .description {
+      font-size: 1.05rem;
+      color: #64748b;
+      max-width: 520px;
+      margin: 0 auto;
+      font-style: italic;
+      line-height: 1.7;
+    }
+
+    footer {
+      margin-top: auto;
+      padding: 24px;
+      text-align: center;
+      font-size: 0.85rem;
+      color: #94a3b8;
+    }
+
+    @media (max-width: 640px) {
+      .card-container {
+        margin: 0 0 24px 0;
+        border-radius: 0;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+      }
+      .header-banner {
+        height: 180px;
+      }
+      .profile-body {
+        padding: 0 20px 28px 20px;
+      }
+      .avatar-img {
+        width: 100px;
+        height: 100px;
+      }
+      .title {
+        font-size: 1.6rem;
+      }
+      .description {
+        font-size: 0.98rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <main class="card-container">
+    <div class="header-banner">
+      <div class="header-overlay"></div>
+    </div>
+
+    <div class="profile-body">
+      <div class="avatar-container">
+        <img src="avatar.png" alt="Riadh BiziD" class="avatar-img">
+      </div>
+
+      <h1 class="title">Riadh BiziD®</h1>
+      <p class="subtitle">Professeur d'éducation physique et sportive Tunisie</p>
+
+      <div class="divider"></div>
+
+      <p class="description">
+        Journal sportif des journées excitantes et amusantes avec mes merveilleux élèves. Des rires des sourires et plein de bonheur.
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    <p>© Riadh BiziD®</p>
+  </footer>
+
+</body>
+</html>
